@@ -1,7 +1,35 @@
-# Ignore Jupyter notebook checkpoints
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
 .ipynb_checkpoints/
 
-# Ignore hidden files and directories
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Hidden files and directories
 .*
 !/.gitignore
 
@@ -17,3 +45,6 @@ train/ft_models/
 /data/train/DowJones30/
 
 data/train/xbrl_extract_raw.json
+
+# Ignore .env file
+.env
